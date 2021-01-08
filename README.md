@@ -1,4 +1,4 @@
-# anti-CRISPR-Csy4
+# anti-CRISPR-Csy4 source codes
 scripts and data for "Anti-CRISPR RNAs: designing universal riboregulators with deep learning of Csy4-mediated RNA processing"
 
 This github repository includes matlab codes we used to analyze the data of pre-crRNA libraries of random or palindromic flanking sequences and codes we used to design anti-CRISPR RNAs, as well as the dataset for analysis.
