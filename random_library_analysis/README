@@ -3,5 +3,10 @@
 This folder includes the necessary Matlab scripts to read fasta files of NGS data, transform into matlab-compatible structure, clean the data (exclude wrong reads
 and outliers), perform feature analysis (including sequence and structure analysis), and build random forest models.
 
-Two sub-folders are included. Small-dataset: a small dataset and the analysis script, which can be used for demo; Large-dataset: a larger dataset and the analysis
-script, which requires about a week to perform the full analysis. The analysis script in two folders are the same with a few modifications.
+Two sub-folders are included.
+
+small_dataset: a small dataset and the analysis script, which can be used for demo;
+
+large_dataset: a larger dataset and the analysis script, which requires about a week to perform the full analysis.
+
+The analysis script in two folders are the same with a few modifications.
