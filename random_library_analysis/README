@@ -1,7 +1,19 @@
 # Random library analysis
 
-This folder includes the necessary Matlab scripts to read fasta files of NGS data, transform into matlab-compatible structure, clean the data (exclude wrong reads
-and outliers), perform feature analysis (including sequence and structure analysis), and build random forest models.
+This folder includes:
+
+1. Raw count data of NGS results of pre-crRNA libraries with random flanking sequences.
+
+2. A live script to perform the data analysis using raw count data as the input. The data analysis includes:
+
+a. read the files of NGS raw data into matlab data structure;
+b. clean the data: exclude the wrong reads and outliers;
+c. feature analysis: sequence and structure analysis;
+d. build a simple random forest modle for classification using raw sequences as predictors;
+
+3. Processed files saved in ".mat" format
+
+4. Scripts of necessary function
 
 Two sub-folders are included.
 
