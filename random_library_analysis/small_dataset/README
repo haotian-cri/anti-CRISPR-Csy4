@@ -4,4 +4,6 @@ NGS201708_CrX_analysis.mlx： a live script to perform the data analysis using r
 
 CrX_Features_Analysis.m: a function used for feature analysis including sequence and structural analysis
 
+CommandDiary.m: a function to save the output displayed on the screen of the system terminal.
+
 Processed files are saved in ".mat" format.
