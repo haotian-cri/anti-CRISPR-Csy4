@@ -14,5 +14,5 @@ This folder includes two subfolders:
 2. Genomic screening: screen the desired transcriptome and design all possible pre-crRNA sensors.
 
 Note: In two folders, we showed the usage of two different types of valuation model, to demonstrate the customizability of this pipeline.
-In the subfolder "window-sliding sensor design", the random forest model uses sequences, and all feautures as the predictor inputs.
+In the subfolder "window-sliding sensor design", the random forest model uses 1127 inputs (including raw sequences, and analyzed feautures).
 In the subfolder "genomic screening", the random forest model only uses raw sequences.
