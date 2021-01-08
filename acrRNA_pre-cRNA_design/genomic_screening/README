@@ -1,0 +1,7 @@
+1. genomic_screening.mlx: a live script to perform screening on the whole transcriptome to design all possible pre-crRNA sensors
+
+2. pRDCrX_mdl_4114_100.mat: the model used in this script. A random forest model, using raw sequences as the predictor with 100 trees.
+
+3. A00_Window_Sliding.m: the supporting function to perform window sliding
+
+4. E_coli_K12_screening.mat: the output result
