@@ -1,6 +1,6 @@
 1. window_sliding_sensor_design.mlx: a live script to perform pre-crRNA sensor design given any RNA sequence of interest to be targeted.
 
-2. pRDCrX_Mdl_1127_500.mat: the random forest classification model chosen in this demo, which uses raw sequences and all analyzed features as the predictor.
+2. pRDCrX_Mdl_1127_500.mat: the random forest classification model chosen in this demo, which uses 1127 inputs (including raw sequences, and analyzed feautures).
 To be noticed, this model can be replaced by either random forest model using raw sequences as the predictor, 1D CNN model, or Seq2DFunc model, as desired.
 
 3. Supporting functions:
@@ -17,6 +17,7 @@ CommandDiary.m
   b. Sensors: designed pre-crRNA sensors that can sense thiM riboswitch.
   c. Triggers: designed acrRNA trigger as positive controls.
   d. potential sensors: all the potential pre-crRNA sensors generated, whereas only a fraction of them are processable by default and can act as a functional sensor.
+
 Other examples include:
 window_sliding_sensors_mRFP1_E1010.mat
 window_sliding_sensors_btuB.mat
