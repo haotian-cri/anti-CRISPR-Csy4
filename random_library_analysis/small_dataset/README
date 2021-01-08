@@ -1,0 +1,7 @@
+Raw count data: text files with ".count" suffix
+
+NGS201708_CrX_analysis.mlx： a live script to perform the data analysis using raw count data
+
+CrX_Features_Analysis.m: a function used for feature analysis including sequence and structural analysis
+
+Processed files are saved in ".mat" format.
