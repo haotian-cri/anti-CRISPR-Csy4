@@ -20,6 +20,6 @@ Instruction for use:
 Please first read through the codes and notations, and changes the paths of desired folders.
 
 Most of the analysis take < 1 hour. Exceptions: Analysis of random libraries takes multiple hours to weeks, dependent of the size of dataset, which is normal
-due to the time-consuming sequence and structural analysis. The small dataset used in this demo normally takes about 4 hours to process.
+due to the time-consuming sequence and structural analysis. The small dataset used in this demo normally takes < 1 week to process.
 
 Reproduction instruction: Random seeds were pre-defined in the codes for reproduction.
