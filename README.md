@@ -1,7 +1,7 @@
 # anti-CRISPR-Csy4 source codes
 scripts and data for "Anti-CRISPR RNAs: designing universal riboregulators with deep learning of Csy4-mediated RNA processing"
 
-This github repository includes matlab scripts we used to analyze the data of pre-crRNA libraries of random or palindromic flanking sequences and codes we used to design anti-CRISPR RNAs, as well as the dataset for analysis.
+This github repository includes matlab scripts we used to analyze the data of pre-crRNA libraries of random or palindromic flanking sequences and codes we used to design anti-CRISPR RNA triggers and pre-cRNA sensors, as well as the dataset for analysis.
 
 Python codes of Seq2DFunc (2D convolutional neural network) and 1D CNN (1D convolutional neural network) deep learning are not included in this repository, but here: https://github.com/maincover/sequenceDLlearning
 
