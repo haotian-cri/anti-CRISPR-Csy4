@@ -10,4 +10,4 @@ CrX_Features_Analysis.m: a function used for feature analysis including sequence
 
 CommandDiary.m: a function to save the output displayed on the screen of the system terminal.
 
-pRDCrX_Mdl_1127_500.mat & pRDCrX_mdl_4114_100.mat: examples of trained classification model.
+pRDCrX_mdl_4114_100.mat: examples of trained classification model.
