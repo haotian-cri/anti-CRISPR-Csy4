@@ -13,7 +13,9 @@ d. build a simple random forest modle for classification using raw sequences as 
 
 3. Processed files saved in ".mat" format
 
-4. Scripts of necessary function
+4. examples of random forest model
+
+5. Scripts of necessary function
 
 Two sub-folders are included.
 
