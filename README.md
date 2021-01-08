@@ -3,7 +3,7 @@ scripts and data for "Anti-CRISPR RNAs: designing universal riboregulators with 
 
 This github repository includes matlab scripts we used to analyze the data of pre-crRNA libraries of random or palindromic flanking sequences and codes we used to design anti-CRISPR RNAs, as well as the dataset for analysis.
 
-Python codes of Seq2DFunc and 1D CNN deep learning are not included in this repository, but here: https://github.com/maincover/sequenceDLlearning
+Python codes of Seq2DFunc (2D convolutional neural network) and 1D CNN (1D convolutional neural network) deep learning are not included in this repository, but here: https://github.com/maincover/sequenceDLlearning
 
 System requirements: all codes were tested on Macbook Pro (Mid-2015) with MacOS. They were not tested on Windows or Linux systems.
 
