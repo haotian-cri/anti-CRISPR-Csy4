@@ -2,7 +2,7 @@
 
 This folder includes:
 
-1. sample_35_01.fastq: an example of raw fastq data
+1. sample_35_01.fastq: an example of raw fastq data. The full set of data is available from corresponding authors upon reasonable request.
 
 2. CrPool_analysis.mlx: A live script to perform the data analysis using raw count data as the input. The data analysis includes:
 
