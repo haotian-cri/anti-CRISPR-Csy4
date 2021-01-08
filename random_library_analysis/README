@@ -1,0 +1,5 @@
+# Random library analysis
+
+This folder includes the necessary Matlab script to read fasta files of NGS data, transform into matlab-compatible structure, clean the data (exclude wrong reads
+and outliers), perform feature analysis (including sequence and structure analysis), and build random forest models.
+
