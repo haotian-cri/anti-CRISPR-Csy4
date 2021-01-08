@@ -1,2 +1,14 @@
-# Automated design pipeline of pre-crRNAs and acrRNAs pairs
-For a given RNA sequence as the “seed”, we created a list of all its fragments in an 18-nt window. Then the 18-nt sequences were splitted into two 9-nt pieces to flank CBS. The sequence of flanked CBS (33-nt in total) to construct potential pre-crRNA switches was then evaluated by a valuation model (e.g. Seq2DFunc). Those sequences predicted not to be a processable were excluded. For each remaining pre-crRNA, we designed a cognate acrRNA trigger, which consists of a 5’ stem loop, an 18-nt interaction domain containing anti-flanking sequences, and strong terminator ECK12003373738, using Nupack 3.1.0 complexdesign function37. We also removed the pre-crRNAs from the list if cognate acrRNAs cannot be designed by Nupack.
+This folder includes two subfolders:
+
+1. Window-sliding sensor design: to design legitimate pre-crRNA sensors for any give RNA sequence, using the following pipeline
+  a. For a given RNA sequence as the “seed”, we created a list of all its fragments in an 18-nt window.
+  b. Then the 18-nt sequences were splitted into two 9-nt pieces to flank CBS.
+  c. The sequence of flanked CBS (33-nt in total) to construct potential pre-crRNA switches was then evaluated by a valuation model
+  (e.g. Seq2DFunc, in this demo, we used random forest classification instead).
+  d. Those sequences predicted not to be a processable were excluded.
+  e. For each remaining pre-crRNA, we designed a cognate acrRNA trigger (as the postive control), 
+  which consists of a 5’ stem loop, an 18-nt interaction domain containing anti-flanking sequences, and strong terminator ECK12003373738, 
+  using Nupack 3.1.0 complexdesign function.
+  f. We also removed the pre-crRNAs from the list if cognate acrRNAs cannot be designed by Nupack.
+
+2. Genomic screening: screen the desired transcriptome and design all possible pre-crRNA sensors.
