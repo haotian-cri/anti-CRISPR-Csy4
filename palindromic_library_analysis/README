@@ -1,0 +1,11 @@
+# Palindromic library analysis
+
+This folder includes:
+
+1. sample_35_01.fastq: an example of raw fastq data
+
+2. CrPool_analysis.mlx: A live script to perform the data analysis using raw count data as the input. The data analysis includes:
+
+a. read the files of NGS raw data into matlab data structure;
+b. clean the data: exclude the wrong reads and outliers;
+c. perform plotting and statistic analysis.
