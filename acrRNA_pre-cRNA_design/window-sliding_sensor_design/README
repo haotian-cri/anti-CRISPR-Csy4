@@ -1,6 +1,7 @@
 1. window_sliding_sensor_design.mlx: a live script to perform pre-crRNA sensor design given any RNA sequence of interest to be targeted.
 
-2. pRDCrX_Mdl_1127_500.mat: the random forest classification model chosen in this demo, which uses 1127 inputs (including raw sequences, and analyzed feautures).
+2. pRDCrX_Mdl_1127_50.mat: the random forest classification model chosen in this demo, 
+which uses 1127 inputs (including raw sequences, and analyzed feautures), and 50 trees.
 To be noticed, this model can be replaced by either random forest model using raw sequences as the predictor, 1D CNN model, or Seq2DFunc model, as desired.
 
 3. Supporting functions:
